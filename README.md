@@ -10,6 +10,7 @@
 ```buildoutcfg
 python -m venv venv                 // create virtual environment
 source venv/Script/activate         // activate the virtual env
+                                    // to deactivate the virtual environment just run: 'deactivate'
 pip freeze                          // check if requirements are installed
 pip freeze > requirements.txt       // write list of requirements in requirements.txt file
 pip install -r requirements.txt     // install requirements
